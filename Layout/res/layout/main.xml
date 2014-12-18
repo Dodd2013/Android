@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+	<TextView
+	    android:id="@+id/view01"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    android:background="#f00"
+	    android:height="400dp"
+	    android:width="400dp" />
+
+		<TextView
+		    android:id="@+id/view02"
+		    android:layout_width="322dp"
+		    android:layout_height="459dp"
+		    android:layout_gravity="center"
+		    android:background="#0f0"
+		    android:height="280dp"
+		    android:width="280dp" />
+
+		<TextView
+		    android:id="@+id/view03"
+		    android:layout_width="270dp"
+		    android:layout_height="398dp"
+		    android:layout_gravity="center"
+		    android:background="#00f"
+		    android:height="240dp"
+		    android:width="240dp" />
+
+		<TextView
+		    android:id="@+id/view04"
+		    android:layout_width="226dp"
+		    android:layout_height="285dp"
+		    android:layout_gravity="center"
+		    android:background="#ff0"
+		    android:height="200dp"
+		    android:width="200dp" />
+
+		<TextView
+		    android:id="@+id/view05"
+		    android:layout_width="185dp"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="#f0f"
+		    android:height="160dp"
+		    android:width="160dp" />
+
+		<TextView
+		    android:id="@+id/view06"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:background="#0ff"
+		    android:height="120dp"
+		    android:width="120dp" />
+
+		"
+    </FrameLayout>
+

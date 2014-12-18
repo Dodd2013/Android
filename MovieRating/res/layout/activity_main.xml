@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical"
+    android:layout_gravity="top"
+    android:background="#d9e5eb"
+    >
+	<EditText
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:hint="@string/Movie_name"
+	    android:id="@+id/editText2"
+	    android:text="">
+	    
+	</EditText>
+	<LinearLayout android:id="@+id/linearLayout1"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    >
+	<EditText android:text=""
+	    android:hint="@string/Year"
+	    android:id="@+id/editText3"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:inputType="number"
+	    ></EditText>
+	<EditText android:layout_height="wrap_content"
+	    android:text=""
+	    android:hint="@string/Duration"
+	    android:layout_weight="1"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/editText4"></EditText>
+</LinearLayout>
+<RatingBar android:id="@+id/ratingBar1"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<EditText android:layout_height="0dip"
+    android:layout_width="match_parent"
+    android:id="@+id/editText1"
+    android:text=""
+    android:hint="@string/Write_Review"
+    android:layout_weight="1"
+    android:gravity="top"
+    
+    />
+<EditText android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/editText5"
+    android:text=""
+    android:hint="@string/Starring"
+    />
+<EditText android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/editText6"
+    android:text=""
+    android:hint="@string/Director"
+    />
+<Button android:layout_height="wrap_content"
+    android:text="@string/Save"
+    android:id="@+id/button1"
+    android:layout_width="match_parent"/>
+</LinearLayout>
