@@ -29,9 +29,9 @@ public class MainActivity extends Activity {
 		}
 		    }).show();
 		
-		AlertDialog alert = builder.create();
-		 alert.setTitle("AlertDialogExample");
-		 alert.show();
+		//AlertDialog alert = builder.create();
+		 //alert.setTitle("AlertDialogExample");
+		 //alert.show();
 		setContentView(R.layout.activity_main);
 	}
 
