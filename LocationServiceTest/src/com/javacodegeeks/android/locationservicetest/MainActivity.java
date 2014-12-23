@@ -61,7 +61,8 @@ public class MainActivity extends Activity {
 				 }  
 			}
 		  });
-		  criteria.setCostAllowed(false); 
+		  criteria.setCostAllowed(false);
+		  criteria.setPowerRequirement(Criteria.POWER_LOW);
 		  // get the best provider depending on the criteria
 		  provider = locationManager.getBestProvider(criteria, false);
 	    
