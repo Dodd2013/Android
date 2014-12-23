@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smsmessagingapp.MainActivity" >
+
+     <TextView
+        android:id="@+id/textViewPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneno"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+        <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSMS"
+        android:layout_below="@+id/editTextSMS"
+        android:layout_marginTop="114dp"
+        android:text="@string/send" />
+
+    <TextView
+        android:id="@+id/textViewSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextSMS"
+        android:layout_alignBottom="@+id/editTextSMS"
+        android:layout_alignRight="@+id/textViewPhoneNo"
+        android:text="@string/sm"/>"
+    
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPhoneNo"
+        android:layout_below="@+id/editTextPhoneNo"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    
+
+</RelativeLayout>
