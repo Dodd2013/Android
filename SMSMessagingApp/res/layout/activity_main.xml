@@ -35,7 +35,7 @@
         android:layout_alignBaseline="@+id/editTextSMS"
         android:layout_alignBottom="@+id/editTextSMS"
         android:layout_alignRight="@+id/textViewPhoneNo"
-        android:text="@string/sm"/>"
+        android:text="@string/sm"/>
     
     <EditText
         android:id="@+id/editTextSMS"
