@@ -1,4 +1,6 @@
 package com.example.videostreamingapp;
+import java.io.IOException;
+
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.net.Uri;
@@ -47,7 +49,7 @@ public class VideoViewActivity extends Activity {
 			Uri video = Uri.parse(VideoURL);
 			videoview.setMediaController(mediacontroller);
 			videoview.setVideoURI(video);
- 
+			
 		} catch (Exception e) {
 			Log.e("Error", e.getMessage());
 			e.printStackTrace();
