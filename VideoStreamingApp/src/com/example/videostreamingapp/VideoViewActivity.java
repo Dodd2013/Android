@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.util.Log;
@@ -18,7 +19,7 @@ public class VideoViewActivity extends Activity {
 	VideoView videoview;
  
 	// Insert your Video URL
-	String VideoURL = "http://www.androidbegin.com/tutorial/AndroidCommercial.3gp";
+	String VideoURL =Environment.getExternalStorageDirectory()+ "/Music/2.mp3";
  
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +40,7 @@ public class VideoViewActivity extends Activity {
 		pDialog.setCancelable(false);
 		// Show progressbar
 		pDialog.show();
- 
+		Log.i("URL", VideoURL);
 		try {
 			// Start the MediaController
 			MediaController mediacontroller = new MediaController(
